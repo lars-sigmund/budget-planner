@@ -23,6 +23,7 @@ jobs:
 
       - name: Build with Gradle Wrapper
         run: ./backend/gradlew build
+        working-directory: ./backend
 
   dependency-submission:
 
