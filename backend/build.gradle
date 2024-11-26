@@ -51,7 +51,7 @@ dependencies {
 	testImplementation('org.springframework.boot:spring-boot-testcontainers') {
 		exclude(group: 'org.apache.commons', module: 'commons-compress')
 	}
-	testImplementation 'org.apache.commons:commons-compress:1.26.0'
+	testImplementation 'org.apache.commons:commons-compress:1.27.1'
 	testImplementation 'org.springframework.restdocs:spring-restdocs-mockmvc'
 	testImplementation 'org.springframework.security:spring-security-test'
 	testImplementation 'org.testcontainers:junit-jupiter'
