@@ -1,4 +1,4 @@
-name: CI Budget Planner Backend
+name: CI Budget Planner Frontend
 on:
   push:
     paths:
