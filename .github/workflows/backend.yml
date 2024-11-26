@@ -1,6 +1,8 @@
-name: CI Budget Planner
+name: CI Budget Planner Backend
 on:
-  - push
+  push:
+    paths:
+      - backend/**
 jobs:
   build:
     runs-on: ubuntu-latest
